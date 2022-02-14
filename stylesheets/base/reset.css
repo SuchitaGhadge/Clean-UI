@@ -1,0 +1,27 @@
+/* 
+    *************
+    reset css code
+    *************
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: center;
+}
+
+body{
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}

@@ -1,0 +1,86 @@
+:root{
+    --primary-color: #4265FF;
+    /* #1137e1 */
+    --secondary-color: #e9ebeb;
+    --warning-color: #E1BB11;
+    --danger-color: #FE5757;
+    --success-color: #4CAF50;
+    --info-color: #42C3FF;
+    --light-color: #f4f4ed;
+    --dark-color: #221d23;
+
+    --primary-hover: #2946c7;
+    --secondary-hover: #d2d6d6;
+    --warning-hover: #ceab10;
+    --danger-hover: #FE2424;
+    --success-hover: #449e47;
+    --info-hover: #51c8ff;
+
+    --active-color: #0F3BFF;
+    --off-white: #f0f0f1;
+    --shadow-color: #00000059;
+
+}
+
+  /* Text Color Classes */
+  .text-primary{
+      color: var(--primary-color);
+  }
+
+  .text-secondary{
+      color: var(--secondary-color);
+  }
+
+  .text-warning{
+      color: var(--warning-color);
+  }
+
+  .text-success{
+      color: var(--success-color);
+  }
+
+  .text-danger{
+      color: var(--danger-color);
+  }
+
+  .text-info{
+      color: var(--info-color)
+  }
+
+  .text-offwhite{
+      color: var(--off-white);
+  }
+
+  .text-dark{
+      color: var(--dark-color);
+  }
+
+  .text-light{
+      color: var(--light-color)
+  }
+
+  /* Background Color Classes */
+
+  .bg-primary{
+      background-color: var(--primary-color);
+  }
+
+  .bg-secondary{
+      background-color: var(--secondary-color);
+  }
+
+  .bg-warning{
+      background-color: var(--warning-color);
+  }
+
+  .bg-danger{
+      background-color: var(--danger-color);
+  }
+
+  .bg-success{
+      background-color: var(--success-color);
+  }
+
+  .bg-info{
+      background-color: var(--info-color);
+  }
