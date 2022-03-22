@@ -1,0 +1,31 @@
+@import url("../../../style.css");
+
+*, 
+body{
+    box-sizing: border-box;
+}
+
+.full-content{
+    height: max-content;
+    min-height: 100vh;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 80vw;
+}
+
+.main-container{
+    display: grid;
+    grid-template-areas: "sidebar content";
+    grid-template-columns: 1fr 2fr;
+    margin: auto;
+    position: relative;
+    width: 95%;
+}
+
+/* header container */
+.header-container{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
