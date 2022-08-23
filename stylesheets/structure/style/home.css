@@ -1,5 +1,5 @@
 @import url("../../../style.css");
-@import url("../style/doc-structure.css");
+@import url("../style/structure.css");
 
 
 body{
@@ -39,6 +39,10 @@ body{
     font-size: var(--md);
     margin: var(--md);
     padding: var(--md);
+}
+
+.hero-btn .btn:hover{
+    text-decoration: none;
 }
 
 /* break points */
@@ -107,7 +111,7 @@ body{
     }
 
     .hero-btn .btn{
-        font-size: 0.8rem;
+        font-size: 0.8em;
         padding: var(--md);
     }
     
