@@ -8,6 +8,9 @@
 @import url('/stylesheets/utilities/utility.css');
 @import url('./stylesheets/utilities/typography.css');
 
+/* component css files */
+@import url('./components/navbar.css');
+
 *{
     margin: 0;
     padding: 0;
