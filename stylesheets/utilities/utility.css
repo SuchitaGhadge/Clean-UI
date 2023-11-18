@@ -141,3 +141,34 @@
 .text-muted{
     color: var(--muted-color);
 }
+
+/* Styling for divider */
+.divider {
+    min-width: 100%;
+    height: 1px;
+    border-bottom: 1px solid var(--secondary-hover);
+  }
+  
+  .divider-md {
+    margin-bottom: var(--md);
+  }
+
+/* Classes for a tags */
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Styling for icons */
+svg,
+i:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: inherit;
+  z-index: 1;
+}

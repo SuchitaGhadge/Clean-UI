@@ -11,14 +11,15 @@ body{
     margin: auto;
     position: relative;
     text-align: center;
-    width: 80vw;
+    width: 95vw;
 }
 
 .main-container{
     display: grid;
     grid-template-areas: "sidebar content";
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 0.2fr 0.8fr;
     margin: auto;
+    padding: var(--xl) 0;
     position: relative;
     width: 95%;
 }
@@ -31,14 +32,14 @@ body{
 }
 
 .aside-wrapper{
+    grid-area:  sidebar;
     position: fixed;
-    z-index: 99;
+    z-index: 9;
 }
 
 .aside-container{
-    grid-area: sidebar;
     max-height: 90vh;
-    min-width: 14em;
+    min-width: 15rem;
     overflow: auto;
 }
 
@@ -69,4 +70,30 @@ body{
 .code-snippet {
     text-align: justify;
     line-height: calc(var(--md) + var(--sm));
+}
+
+/* list style */
+.list {
+    background-color: inherit;
+    text-align: start;
+  }
+  .list-title {
+    border: none;
+    word-spacing: normal;
+  }
+  .list li {
+    font-size: var(--md);
+  }
+  .list li a:hover {
+    text-decoration: none;
+  }
+  
+  .content-heading {
+    color: var(--dark-primary-color);
+    font-size: var(--xl);
+    padding: var(--md) 0;
+  }
+
+.content {
+    margin: var(--md) 0;
 }
