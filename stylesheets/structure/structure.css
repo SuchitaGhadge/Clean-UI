@@ -1,0 +1,72 @@
+@import url("../../style.css");
+
+*, 
+body{
+    box-sizing: border-box;
+}
+
+.full-content{
+    height: max-content;
+    min-height: 100vh;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    width: 80vw;
+}
+
+.main-container{
+    display: grid;
+    grid-template-areas: "sidebar content";
+    grid-template-columns: 1fr 2fr;
+    margin: auto;
+    position: relative;
+    width: 95%;
+}
+
+/* header container */
+.header-container{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.aside-wrapper{
+    position: fixed;
+    z-index: 99;
+}
+
+.aside-container{
+    grid-area: sidebar;
+    max-height: 90vh;
+    min-width: 14em;
+    overflow: auto;
+}
+
+.footer-container {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin-top: var(--md);
+    padding-top: var(--md);
+    width: 100%;
+}
+
+.footer-links {
+    display: flex;
+    font-size: var(--lg);
+}
+
+/* Main docs content styling */
+.main-content {
+    grid-area: content;
+    text-align: start;
+    width: 100%;
+}
+.main-content-section {
+    padding: var(--sm) var(--xl);
+}
+.code-snippet {
+    text-align: justify;
+    line-height: calc(var(--md) + var(--sm));
+}

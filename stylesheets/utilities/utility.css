@@ -1,0 +1,143 @@
+@import url('/stylesheets/abstracts/colors.css');
+@import url('/stylesheets/abstracts/variables.css');
+
+/* 
+    ***************
+    Utility Classes
+    ***************
+*/
+/* container class */
+.container{
+    width: 100%;
+    margin: auto;
+    padding: var(--md);
+    position: relative;
+}
+
+.container-fluid{
+    width: 100%;
+    margin: 0;
+    padding: var(--md) 0;
+    position: relative;
+}
+
+/* background classes */
+.bg-dark{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+.bg-light{
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+/* positioning classes */
+.center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .center-x {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .center-y {
+    top: 50%;
+    transform: translateY(-50%);
+  }  
+
+/* Classes for flex positioning */
+.d-flex{
+    display: flex;
+}
+.content-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+.text-start{
+    text-align: start;
+}
+.text-end{
+    text-align: end;
+}
+.text-justify{
+    text-align: justify;
+}
+.justify-content-start{
+    display: flex;
+    justify-content: start;
+}
+.justify-content-end{
+    display: flex;
+    justify-content: end;
+}
+.align-items-start{
+    display: flex;
+    align-items: start;
+}
+.align-items-end{
+    display: flex;
+    align-items: end;
+}
+
+/* shadow style classes*/
+.shadow-xs{
+    box-shadow: 0px 0px 5px 0px var(--shadow-color);
+}
+.shadow-sm{
+    box-shadow: 0px 0px 10px 0px var(--shadow-color);
+}
+.shadow-md{
+    box-shadow: 0px 5px 15px 0 var(--shadow-color);
+}
+.shadow-lg{
+    box-shadow: 0px 5px 15px 3px var(--shadow-color);
+}
+
+
+/* Class for transition */
+.transition {
+    transition: 1s, color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* border radius */
+
+.border-rounded-xs{
+    border-radius: var(--xs);
+}
+.border-rounded-sm{
+    border-radius: var(--sm);
+}
+.border-rounded-md{
+    border-radius: var(--md);
+}
+.border-rounded-lg{
+    border-radius: var(--lg);
+}
+.border-rounded{
+    border-radius: 50%;
+}
+
+
+/* Link */
+.link-none{
+    color: inherit;
+    text-decoration: none;
+}
+
+.active{
+    font-weight: 700;
+    color: var(--active-color);
+}
+
+.text-muted{
+    color: var(--muted-color);
+}

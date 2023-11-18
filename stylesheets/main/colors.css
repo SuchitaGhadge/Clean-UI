@@ -1,0 +1,102 @@
+:root{
+    --primary-color: #4265FF;
+    --dark-primary-color: #021670;
+    --secondary-color: #e9ebeb;
+    --warning-color: #E1BB11;
+    --danger-color: #FE5757;
+    --success-color: #4CAF50;
+    --info-color: #42C3FF;
+    --light-color: #f4f4ed;
+    --dark-color: #241f25;
+
+    --primary-hover: #2946c7;
+    --dark-primary-hover:#000e4d;
+    --secondary-hover: #d2d6d6;
+    --warning-hover: #ceab10;
+    --danger-hover: #FE2424;
+    --success-hover: #449e47;
+    --info-hover: #51c8ff;
+    --active-hover:#0047b3; 
+    --dark-hover: #161316;
+
+    --active-color: #0F3BFF;
+    --off-white: #f0f0f1;
+    --shadow-color: #00000069;
+    --white-color : #ffffff;
+    --muted-color: #bfc2c2;
+}
+
+  /* Text Color Classes */
+  .text-primary{
+      color: var(--primary-color);
+  }
+
+  .text-secondary{
+      color: var(--secondary-color);
+  }
+
+  .text-warning{
+      color: var(--warning-color);
+  }
+
+  .text-success{
+      color: var(--success-color);
+  }
+
+  .text-danger{
+      color: var(--danger-color);
+  }
+
+  .text-info{
+      color: var(--info-color)
+  }
+
+  .text-offwhite{
+      color: var(--off-white);
+  }
+
+  .text-dark{
+      color: var(--dark-color);
+  }
+
+  .text-light{
+      color: var(--light-color)
+  }
+
+  .text-white{
+      color: var(--white);
+  }
+
+  .text-dark-primary{
+      color: var(--dark-primary-color);
+  }
+
+  /* Background Color Classes */
+
+  .bg-primary{
+      background-color: var(--primary-color);
+  }
+
+  .bg-secondary{
+      background-color: var(--secondary-color);
+  }
+
+  .bg-warning{
+      background-color: var(--warning-color);
+  }
+
+  .bg-danger{
+      background-color: var(--danger-color);
+  }
+
+  .bg-success{
+      background-color: var(--success-color);
+  }
+
+  .bg-info{
+      background-color: var(--info-color);
+  }
+
+  .bg-white{
+      background-color: var(--white);
+  }

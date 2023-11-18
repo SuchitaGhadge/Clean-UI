@@ -1,0 +1,35 @@
+.nav{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: var(--sm);
+    align-items: center;
+}
+
+.nav-links{
+    margin-right: var(--lg);
+}
+
+.nav a{
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+.nav-logo{
+    margin-left: var(--lg);
+}
+
+.nav-links a:hover{
+    color: var(--active-color);
+}
+
+.nav ul{
+    margin-left:auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+.nav ul li{
+    margin: 0 var(--sm);
+}

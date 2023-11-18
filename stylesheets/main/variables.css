@@ -1,0 +1,19 @@
+:root {
+
+    /* sizes */
+    --xs : 0.25rem;
+    --sm : 0.5rem;
+    --md : 1rem;
+    --lg : 1.5rem;
+    --xl : 2rem;
+    --xxl : 3rem;
+
+    
+    /* Screen Size Breakpoints */
+    --screen-size-xs : 576px;
+    --screen-size-sm : 786px;
+    --screen-size-md : 992px;
+    --screen-size-lg : 1200px;
+    --screen-size-xl : 1400px;
+    --screen-size-xxl : 1536px;
+}

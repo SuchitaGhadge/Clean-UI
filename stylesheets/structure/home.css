@@ -1,0 +1,123 @@
+@import url("../../style.css");
+@import url("../structure/structure.css");
+
+
+body{
+    background-color: var(--white-color);
+    color: var(--dark-color);
+    font-size: 100%;
+}
+
+/* hero section */
+.hero-container{
+    max-width: 95%;
+    padding: var(--xxl);
+    margin: var(--xxl) auto;
+}
+
+.hero-title{
+    margin: var(--xl) auto;
+    max-width: 80%;
+}
+
+.hero-subtitle{
+    margin: var(--xl) auto;
+    max-width: 80%;
+}
+
+/* btn */
+.btn:hover{
+    text-decoration: none;
+}
+
+.hero-btn{
+    width: 90%;
+    margin: var(--xl)
+}
+
+.hero-btn .btn{
+    font-size: var(--md);
+    margin: var(--md);
+    padding: var(--md);
+}
+
+.hero-btn .btn:hover{
+    text-decoration: none;
+}
+
+/* break points */
+@media screen and (max-width: 992px){
+    .full-content{
+        width: 100%;
+    }
+
+    .hero-container{
+        height: auto;
+        margin: var(--xxl) auto;
+        padding: var(--xl) auto;
+    }
+
+    .hero-title{
+        margin: auto;
+        padding: var(--sm);
+        width: 100%;
+    }
+
+    .hero-subtitle{
+        margin: var(--xl) auto;
+        padding: var(--sm) 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    body{
+        box-sizing: border-box;
+        font-size: var(--md);
+    }
+
+    .full-content{
+        width: 100%;
+        margin: auto;
+    }
+
+    .hero-container{
+        height: auto;
+        margin: var(--sm) auto;
+        padding: var(--sm) auto;
+    }
+
+    .hero-title{
+        margin: var(--md) auto;
+    }
+
+    .hero-title h1{
+        font-size: var(--xl);
+        line-height: normal;
+    }
+
+    .hero-subtitle{
+        margin: var(--xl) auto;
+        width: 100%;
+    }
+
+    .hero-subtitle p{
+        font-size: var(--md);
+        padding: 0 var(--sm);
+    }
+
+    .hero-btn{
+        margin: var(--xl) auto;
+    }
+
+    .hero-btn .btn{
+        font-size: 0.8em;
+        padding: var(--md);
+    }
+    
+    .footer-container{
+        margin-bottom: 0;
+        margin-top: var(--xxl);
+        padding: var(--xxl);
+    }
+}
